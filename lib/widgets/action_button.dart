@@ -11,7 +11,13 @@ class ActionButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 65,
-      color: AppColor.kgrey.withOpacity(0.2),
+      decoration: BoxDecoration(
+        borderRadius: const BorderRadius.only(
+          topLeft: Radius.circular(10),
+          topRight: Radius.circular(10),
+        ),
+        color: AppColor.kgrey.withOpacity(0.2),
+      ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
