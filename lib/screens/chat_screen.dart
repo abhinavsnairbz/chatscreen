@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../widgets/AppBar/appbar_actions.dart';
 import '../widgets/AppBar/appbar_title.dart';
 import '../widgets/action_button.dart';
-import '../widgets/MessageTile/message_screen.dart';
+import '../widgets/Message/message_screen.dart';
 
 
 String url =
