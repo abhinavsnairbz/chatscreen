@@ -1,9 +1,9 @@
 import 'package:chatscreen/constants/colors.dart';
 import 'package:flutter/material.dart';
-import '../widgets/Appbar/appbar_actions.dart';
-import '../widgets/Appbar/appbar_title.dart';
+import '../widgets/AppBar/appbar_actions.dart';
+import '../widgets/AppBar/appbar_title.dart';
 import '../widgets/action_button.dart';
-import '../widgets/messagetile/message_screen.dart';
+import '../widgets/MessageTile/message_screen.dart';
 
 
 String url =
